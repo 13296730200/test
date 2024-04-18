@@ -1,104 +1,66 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
+build_*/*
+install_*/*
+bin/*
+lib/*
+*/build_*/*
+*/install_*/*
+*/bin/*
+*/lib/*
+*.o
+*.a
 *.so
+*.bin
+*.swp
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+_book
+node_modules
+__pycache__
+inference/flow/include/flow.pb.h
+caffe_pb2.py
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+model_tools/tools/tensorflow2caffe/*/*.txt
+model_tools/tools/tensorflow2caffe/*/*.npy
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+*.bolt
+*.onnx
+*.tflite
+*.pb
+*.prototxt
+*.caffemodel
+*.pdf
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+third_party
 
-# Translations
-*.mo
-*.pot
+common/gcl/tools/kernel_lib_compile/bin2char
+common/gcl/tools/kernel_lib_compile/gcl_binary
+common/gcl/tools/kernel_lib_compile/gcl_device_name
+common/gcl/tools/kernel_lib_compile/include
+common/gcl/tools/kernel_lib_compile/src
+common/gcl/tools/kernel_lib_compile/build
+common/gcl/tools/kernel_lib_compile/name
+common/gcl/tools/kernel_lib_compile/cl
+common/gcl/kernelBin
+common/gcl/tools/kernel_source_compile/include
+common/gcl/tools/kernel_source_compile/src
+kit/iOS/ImageClassification/ImageClassificationDemo/libbolt/imagenet_classes.txt
+kit/iOS/ImageClassification/ImageClassificationDemo/libbolt/headers
+kit/Android/ImageClassification/app/src/main/assets/imagenet_classes.txt
+kit/Android/ImageClassification/app/src/main/cpp/libbolt/headers
+kit/Android/CameraEnlarge/app/src/main/cpp/libbolt/headers
+kit/iOS/CameraEnlarge/CameraEnlarge/libbolt/headers
+kit/Android/SimpleImageClassification/app/src/main/assets
+kit/Android/SimpleImageClassification/app/src/main/java
+kit/iOS/SimpleImgClassfication/libbolt
+kit/Android/Semantics/app/src/main/java
+kit/Android/Semantics/app/src/main/assets/
+kit/Android
+kit/iOS
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
 
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+final_combinations.txt
+single_combinations.txt
+mt_result.txt
+ptq_result.txt
+engine_result.txt
+tmp.txt
+report.csv
